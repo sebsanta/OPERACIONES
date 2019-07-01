@@ -23,11 +23,11 @@ public class Operaciones {
 		return a*b;
 	}
 	
-	public int dividir(int a, int b) {
+	public double dividir(int a, int b) {
 		if(b == 0) {
 			return 0;
 		}
-		return a/b;
+		return   ((double)a/b);
 	}
 	
 }
